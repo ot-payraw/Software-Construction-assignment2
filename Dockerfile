@@ -5,7 +5,8 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
-# Add this line:
+# Copy prisma schema before generating
+COPY prisma ./prisma/
 RUN npx prisma generate
 
 COPY . .
