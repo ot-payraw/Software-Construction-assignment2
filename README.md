@@ -1,6 +1,6 @@
-# Software-Construction-assignment2
+# Software-Construction-assignment1
 
-This is Software Construction assignment 2
+This is Software Construction assignment 1
 to use the web app please use [npm i or npx i]
 the website is a task management app build using next js, prisma and postgres the database quires is done using RESTfull web-services.
 the functionality are
@@ -9,3 +9,5 @@ the functionality are
 3- register new users using POST
 4- list all tasks using GET
 5- Deleting tasks using DELETE
+
+This project include the DockerFile and the JenkinsFile as well
