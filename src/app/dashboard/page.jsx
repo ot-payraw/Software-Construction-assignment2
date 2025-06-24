@@ -209,7 +209,7 @@ export default function DashboardPage() {
                   </button>
                   <button
                     onClick={() => handleDelete(task.id)}
-                    className="text-red-500 hover:text-red-300 px-2 py-1 rounded hover:bg-gray-700 transition duration-150"
+                    className="text-red-400 hover:text-red-300 px-2 py-1 rounded hover:bg-gray-700 transition duration-150"
                   >
                     Delete
                   </button>
